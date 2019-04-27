@@ -1,0 +1,123 @@
+p {
+	margin: 0;
+}
+
+body {
+	max-width: 1600px;
+	margin: 0 auto;
+}
+
+.header {
+	height: 43px;
+	background-color: #4cb1ca;
+}
+
+.header-top {
+	display: grid;
+	height: 43px;
+	grid-template-columns: 2fr 2fr 8fr;
+	align-items: center;
+	grid-gap: 10px;
+}
+
+.header-top__account {
+	justify-self: end;
+}
+
+.header-top__language p,
+.header-top__currency p {
+	color: #bef2ff;
+	padding-right: 10px;
+}
+
+.header-top__language,
+.header-top__currency {
+	display: flex;
+}
+
+.header-top__language span,
+.header-top__currency span,
+.header-top__account a {
+	color: #fff;
+}
+
+.account-nav a {
+	padding: 0 15px;
+	border-right: 1px solid #fff;
+	line-height: 0;
+}
+
+.account-nav a:hover {
+	color: #bef2ff;
+	text-transform: none;
+	text-decoration: none;
+}
+
+.account-nav a:last-child {
+	padding-right: 0;
+	border: none;
+}
+
+.navbar {
+	padding: 8px 0;
+}
+
+.navbar-nav {
+	padding-left: 30px;
+}
+
+.form-inline {
+	padding-left: 15px;
+}
+
+.bg-light {
+	background-color: #fff !important;
+}
+
+.navbar-light .navbar-brand {
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #656565;
+}
+
+.nav-item a {
+	font-size: 14px;
+	color: #656565;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+#cart i {
+	padding-right: 5px;
+}
+
+.header-image {
+	height: 500px;
+	background-image: url(../img/header-image.jpg);
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	align-items: center;
+}
+
+.header-title {
+	padding-left: 20vw;
+}
+
+.header-title h2 {
+	background-color: rgba(0, 0, 0, 0.5);
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.header-title h2:first-child {
+	width: 80%;
+	padding: 10px 0 10px 10px;
+	font-weight: 300;
+}
+
+.header-title h2:last-child {
+	padding: 10px;
+}
