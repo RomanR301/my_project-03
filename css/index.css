@@ -365,13 +365,14 @@ body {
 .footer-information__wrap {
 	width: 100%;
 	background-color: #39a0b9;
+	padding-bottom: 60px;
 }
 
 .footer-information {
 	padding-top: 30px;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr;
+	grid-template-rows: 1fr;
 }
 
 .footer-information h3 {
@@ -402,6 +403,12 @@ body {
 	padding: 10px 0;
 }
 
+.from-twitter,
+.information,
+.contact-us {
+	margin-left: 40px;
+}
+
 .from-tw_container {
 	width: 50px;
 	height: 50px;
@@ -410,12 +417,112 @@ body {
 	position: relative;
 }
 
-.from-twitter svg {
+.from-tw_container svg {
 	fill: #39a0b9;
 	width: 30px;
+	position: absolute;
+	top: calc(50% - 15px);
+	left: calc(50% - 15px);
 }
 
 .from-tw_info {
 	font-size: 13px;
 	color: #fff;
+}
+
+.from-tw-row1,
+.from-tw-row2 {
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	padding-top: 30px;
+	grid-gap: 10px;
+}
+
+.footer-nav {
+	padding: 25px 0 0 15px;
+}
+
+.footer-nav li {
+	list-style: url(../img/vektor/right-arrow.svg);
+	fill: #fff;
+}
+
+.footer-nav li a {
+	color: #fff;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+.footer-nav li a:hover {
+	text-transform: none;
+	text-decoration: none;
+	color: #bef2ff;
+}
+
+.footer-contact-us__nav li {
+	list-style: none;
+}
+
+.footer-contact-us__nav {
+	padding-top: 25px;
+	padding-left: 0;
+}
+
+.footer-socials {
+	display: flex;
+	justify-content: space-between
+}
+
+.footer-socials div {
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	background-color: #fff;
+	position: relative;
+}
+
+.footer-socials div svg {
+	fill: #39a0b9;
+	width: 20px;
+	position: absolute;
+	top: calc(50% - 10px);
+	left: calc(50% - 10px);
+}
+
+.copyright-container_wrap {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	background-color: #0b4b5a;
+	min-height: 60px;
+	
+}
+
+.copyright {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.rights p {
+	color: #8adcf0;
+	font-size: 13px;
+}
+
+.rights-nav a {
+	color: #8adcf0;
+	padding: 0 15px;
+	border-right: 1px solid #fff;
+	line-height: 0;
+}
+
+.rights-nav a:hover {
+	color: #bef2ff;
+	text-transform: none;
+	text-decoration: none;
+}
+
+.rights-nav a:last-child {
+	padding-right: 0;
+	border: none;
 }
