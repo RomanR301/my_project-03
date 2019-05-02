@@ -30,7 +30,70 @@
 	.products-list {
 		grid-template-columns: 1fr 1fr;
 	}
+
+	.footer-contacts {
+		flex-direction: column;
+		justify-content: center;
+		height: 140px;
+	}
+
+	.shipping {
+		padding-bottom: 8px;
+	}
+
+	.call-us {
+		padding-top: 8px;
+	}
+
+	.footer-information {
+		grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+	}
+
+	.facebook {
+		display: none;
+	}
+
+	.from-twitter {
+		margin: 0;
+	}
+
+	.contact-us,
+	.information {
+		margin: 0;
+		justify-self: center;
+	}
+
+	.footer-socials {
+		display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+		justify-content: center;
+		row-gap: 6px;
+	}
+
+	.footer-socials div:first-of-type {
+		margin-left: 0;
+	}
+
+	.footer-socials div:last-of-type {
+		margin-right: 0;
+	}
+
+	.copyright {
+		display: grid;
+    grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr;
+		align-items: center;
+    justify-items: center;
+	}
+	
+	.rights {
+		grid-row: 2/3;
+	}
 }
+
 @media (max-width: 768px) {
 	.sidebar {
 		grid-row: 2/3;
@@ -84,6 +147,40 @@
 		grid-column: 1/3;
 		margin-top: 50px;
 	}
+
+	.from-tw-row1,
+	.from-tw-row2 {
+		padding-top: 0;
+	}
+
+	.from-tw-row2 {
+		padding-top: 18px;
+	}
+
+	.from-tw_info p {
+		font-size: 11px;
+	}
+
+	.information {
+		margin-left: 30px;
+	}
+
+	.footer-information h3 {
+		font-size: 15px;
+	}
+
+	.footer-nav {
+		padding: 15px 0 0 0px;
+	}
+	.footer-contact-us__nav,
+	.footer-nav {
+		padding: 0;
+	}
+
+	.footer-contact-us__nav a,
+	.footer-nav a {
+		font-size: 11px;
+	}
 }
 
 @media (max-width: 488px) {
@@ -126,6 +223,64 @@
 		grid-template-columns: 1fr;
 	}
 
+	.shipping p,
+	.call-us p {
+		font-size: 15px;
+	}
+
+	.footer-information {
+		padding-top: 15px;
+	}
+
+	.footer-information {
+		grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr auto;
+	}
+
+	.from-tw_container {
+		width: 30px;
+    height: 30px;
+	}
+
+	.from-tw_container svg {
+		width: 20px;
+		top: calc(50% - 10px);
+    left: calc(50% - 10px);
+	}
+
+	.contact-us {
+		grid-column: 1/3;
+    justify-self: center;
+    text-align: center;
+	}
+
+	.footer-socials {
+		grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+
+	.footer-socials div {
+		margin: 0 10px;
+	}
+
+	.footer-socials div:first-of-type {
+		margin: 0 10px;
+	}
+
+	.footer-socials div:last-of-type {
+		margin: 0 10px;
+	}
+
+	.rights-nav a {
+		padding: 0 3px;
+		border: none;
+		font-size: 13px;
+	}
+
+	.rights p{
+		font-size: 11px;
+		text-align: center;
+	}
 
 
 
@@ -140,5 +295,21 @@
 		padding: 0px 3px;
 		font-size: 13px;
 		border: none;
+	}
+
+	.shipping p,
+	.call-us p {
+		font-size: 10px;
+	}
+
+	.svg-container {
+		width: 40px;
+    height: 40px;
+	}
+
+	.svg-container svg {
+		width: 24px;
+    top: calc(50% - 12px);
+    left: calc(50% - 12px);
 	}
 }
