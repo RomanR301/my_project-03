@@ -1,0 +1,63 @@
+[
+  {
+    "id": "1",
+    "title": "Gucci black glasses, for men, such nice",
+    "image": "/products_men/product1.png",
+    "price": 400
+  },
+  {
+    "id": "2",
+    "title": "Gucci black glasses, for men, such nice",
+    "image": "/products_men/product2.png",
+    "price": 400
+  },
+  {
+    "id": "3",
+    "title": "Gucci black glasses, for men, such nice",
+    "image": "/products_men/product3.png",
+    "price": 400
+  },
+  {
+    "id": "4",
+    "title": "Gucci black glasses, for men, such nice",
+    "image": "/products_men/product4.png",
+    "price": 400
+  },
+  {
+    "id": "5",
+    "title": "Gucci black glasses, for women, wow",
+    "image": "/products_women/product5.png",
+    "price": 455
+  },
+  {
+    "id": "6",
+    "title": "Gucci black glasses, for women, wow",
+    "image": "/products_women/product6.png",
+    "price": 455
+  },
+  {
+    "id": "7",
+    "title": "Gucci black glasses, for women, wow",
+    "image": "/products_women/product7.png",
+    "price": 455
+  },
+  {
+    "id": "8",
+    "title": "Gucci black glasses, for women, wow",
+    "image": "/products_women/product8.png",
+    "price": 455
+  },
+  {
+    "id": "9",
+    "title": "Not Gucci but cool glasses too.  ",
+    "image": "/products_other/product9.png",
+    "price": 666
+  },
+  {
+    "id": "10",
+    "title": "this is just some other picture haha",
+    "image": "/products_other/other.jpg",
+    "price": 666
+  }
+
+]

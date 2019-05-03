@@ -177,6 +177,15 @@ body {
 	overflow: hidden;
 }
 
+.product-order__container button {
+	width: 47px;
+	height: 47px;
+	border: none;
+	border-radius: 50%;
+	background: none;
+	outline: none;
+}
+
 .product-item__price {
 	color: #7db122;
 }
@@ -187,12 +196,14 @@ body {
 	height: 45px;
 	background-color: #7db122;
 	border-radius: 50%;
-	bottom: 10px;
+	bottom: 0;
 	right: 10px;
 }
 
 .product-order__container:hover {
 	background-color: #4f7016;
+	transform: scale(1.1);
+	transition: all 0.3s;
 }
 
 .product-order__container svg {
@@ -201,6 +212,15 @@ body {
 	position: absolute;
 	bottom: 10px;
 	right: 8px;
+}
+
+
+.product-order__container input {
+	width: 24px;
+    position: absolute;
+    top: calc(50% - 12px);
+    left: calc(50% - 12px);
+    outline: none;
 }
 
 .products-list {

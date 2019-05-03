@@ -104,7 +104,7 @@
 	}
 
 	.sidebar-container {
-		height: 240px;
+		height: 260px;
 		width: 70vw;
 		margin-right: 10px;
 	}
@@ -126,7 +126,7 @@
 	}
 
 	.sidebar-subscribe__info {
-		padding: 0 10px 10px 10px;
+		padding: 0 10px 30px 10px;
 	}
 
 	.side-bar_slider-title {
