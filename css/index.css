@@ -169,12 +169,7 @@ body {
 
 .product-item__description {
 	font-size: 14px;
-}
-
-.product-item__description,
-.product-item__price {
-	max-width: 73%;
-	overflow: hidden;
+	padding: 0;
 }
 
 .product-order__container button {
@@ -212,6 +207,11 @@ body {
 	position: absolute;
 	bottom: 10px;
 	right: 8px;
+}
+
+.card-body {
+	padding: 0 0 15px 0;
+	text-align: center;
 }
 
 
