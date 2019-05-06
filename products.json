@@ -2,79 +2,78 @@
   {
     "id": "1",
     "title": "Gucci sunglasses",
-    "description": "Gucci black glasses, for men. Newest model, very good texture and linses, comfortable and reliable",
+    "description": "Gucci glasses, for men. Newest model, very good texture and linses, comfortable and reliable",
     "image": "/products_men/product1.png",
-    "price": 400
+    "price": 100
   },
   {
     "id": "2",
-    "title": "Gucci sunglasses",
-    "description": "Gucci black glasses, for men. Newest model, very good texture and linses, comfortable and reliable",
+    "title": "Calvin Klein sunglasses",
+    "description": "Calvin Klein glasses, for men. Newest model, very good texture and linses, comfortable and reliable",
     "image": "/products_men/product2.png",
-    "price": 400
+    "price": 120
   },
   {
     "id": "3",
-    "title": "Gucci sunglasses",
-    "description": "Gucci black glasses, for men. Newest model, very good texture and linses, comfortable and reliable",
+    "title": "Guess sunglasses",
+    "description": "Guess glasses, for men. Newest model, very good texture and linses, comfortable and reliable",
     "image": "/products_men/product3.png",
-    "price": 400
+    "price": 88
   },
   {
     "id": "4",
-    "title": "Gucci sunglasses",
-    "description": "Gucci black glasses, for men. Newest model, very good texture and linses, comfortable and reliable",
+    "title": "Invu sunglasses",
+    "description": "Invu glasses, for men. Newest model, very good texture and linses, comfortable and reliable",
     "image": "/products_men/product4.png",
-    "price": 400
+    "price": 150
   },
   {
     "id": "5",
-    "title": "Gucci sunglasses",
-    "description": "Gucci black glasses, for women. Newest model, very good texture and linses, comfortable and reliable",
+    "title": "Kenzo sunglasses",
+    "description": "Kenzo lasses, for women. Newest model, very good texture and linses, comfortable and reliable",
     "image": "/products_women/product5.png",
-    "price": 455
+    "price": 300
   },
   {
     "id": "6",
-    "title": "Gucci sunglasses",
-    "description": "Gucci black glasses, for women. Newest model, very good texture and linses, comfortable and reliable",
+    "title": "Polarized sunglasses",
+    "description": "Polarized glasses, for women. Newest model, very good texture and linses, comfortable and reliable",
     "image": "/products_women/product6.png",
-    "price": 455
+    "price": 200
   },
   {
     "id": "7",
-    "title": "Gucci sunglasses",
-    "description": "Gucci black glasses, for women. Newest model, very good texture and linses, comfortable and reliable",
+    "title": "Polaroid sunglasses",
+    "description": "Polaroid glasses, for women. Newest model, very good texture and linses, comfortable and reliable",
     "image": "/products_women/product7.png",
-    "price": 455
+    "price": 105
   },
   {
     "id": "8",
-    "title": "Gucci sunglasses",
-    "description": "Gucci black glasses, for women. Newest model, very good texture and linses, comfortable and reliable",
+    "title": "Ray-Ban sunglasses",
+    "description": "Ray-Ban glasses, for women. Newest model, very good texture and linses, comfortable and reliable",
     "image": "/products_women/product8.png",
-    "price": 455
+    "price": 90
   },
   {
     "id": "9",
-    "title": "Gucci sunglasses",
+    "title": "NoName sunglasses",
     "description": "Not Gucci but cool glasses too.",
     "image": "/products_other/product9.png",
-    "price": 666
+    "price": 120
   },
   {
     "id": "10",
-    "title": "Gucci sunglasses",
+    "title": "some random big picture",
     "description": "this is just some other picture haha good morning",
     "image": "/products_other/other.jpg",
-    "price": 666
+    "price": 999
   },
   {
     "id": "11",
     "title": "some random big picture",
     "description": "this is beautiful, isn't it",
     "image": "/test.jpg",
-    "price": 666
+    "price": 1000
   }
-
 ]

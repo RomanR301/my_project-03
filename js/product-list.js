@@ -58,7 +58,7 @@ class ProductList {
             .text(`${product.price} - Buy`)
             .data('id', id);
     });
-    $('.card.product button.buy, #productInfoModal button.buy').click( event => {
+    $('.product-item button.buy, #productInfoModal button.buy').click( event => {
         const button = $(event.target);
         const id  = button.data('id'); 
         this.cart.addProduct(id);
