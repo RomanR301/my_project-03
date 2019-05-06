@@ -70,7 +70,7 @@ body {
 	padding-left: 30px;
 }
 
-.form-control {
+.form-search {
 	width: 150px !important;
 }
 
@@ -94,6 +94,10 @@ body {
 
 #cart i {
 	padding-right: 5px;
+}
+
+.cart-image {
+	color: rgba(0,0,0,.5);
 }
 
 .header-image {
@@ -554,3 +558,4 @@ body {
 	left: 25%;
 	z-index: 1111;
 }
+

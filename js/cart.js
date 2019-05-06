@@ -31,7 +31,7 @@ class Cart {
       let cartDomSting = 
           `<div class="container">
               <div class="row">
-                  <div class="col-5"><strong>Product</strong></div>
+                  <div class="col-4"><strong>Product</strong></div>
                   <div class="col-3"><strong>Price</strong></div>
                   <div class="col-2"><strong>Quantity</strong></div>
               </div>`;
@@ -40,11 +40,11 @@ class Cart {
           total += product.price * this.cart[id];
           cartDomSting += 
               `<div class="row" data-id="${id}"> 
-                  <div class="col-5">${product.title}</div>
+                  <div class="col-4">${product.title}</div>
                   <div class="col-3">${product.price}</div>
                   <div class="col-2">${this.cart[id]}</div>
-                  <div class="col-1"><button class="btn btn-sm plus">+</button></div>
-                  <div class="col-1"><button class="btn btn-sm minus">-</button></div>
+                  <div class="col-1 cart-btn1"><button class="btn btn-sm plus">+</button></div>
+                  <div class="col-1 cart-btn2"><button class="btn btn-sm minus">-</button></div>
               </div>`;
       }
       total = total.toFixed(2);

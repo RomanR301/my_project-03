@@ -92,6 +92,10 @@
 	.rights {
 		grid-row: 2/3;
 	}
+
+	.cart-image {
+		padding-left: 28px;
+	}
 }
 
 @media (max-width: 768px) {
@@ -282,6 +286,14 @@
 		text-align: center;
 	}
 
+	.alert {
+		position: fixed;
+		top: 50px; 
+		width: 80%;
+		left: 10%;
+		right: 10%;
+		z-index: 1111;
+	}
 
 
 
@@ -311,5 +323,11 @@
 		width: 24px;
     top: calc(50% - 12px);
     left: calc(50% - 12px);
+	}
+
+	.cart-btn1,
+	.cart-btn2 {
+		padding-right: 13px;
+    padding-left: 13px;
 	}
 }

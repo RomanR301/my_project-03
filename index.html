@@ -60,13 +60,13 @@
 							</li>
 						</ul>
 						<form class="form-inline ml-auto my-2 my-lg-0">
-							<input class="form-control mr-sm-2" type="search" placeholder="Search.." />
+							<input class="form-control form-search mr-sm-2" type="search" placeholder="Search.." />
 							<button class="btn btn-outline-success my-2 my-sm-0" type="submit">
 								Search
 							</button>
 						</form>
 						<div>
-							<a class="nav-link" href="#cartModal" data-toggle="modal">
+							<a class="nav-link cart-image" href="#cartModal" data-toggle="modal">
 								<i class="fas fa-shopping-cart"></i>
 									Cart<span id="cart-badge" class="badge badge-light"></span>
 							</a>
@@ -663,40 +663,69 @@
 				</div>
 			</div>
 		</div>
-
+		
 		<!-- Modal Cart -->
-		<div class="modal fade" id="cartModal" tabindex="-1" role="dialog" aria-labelledby="cartLabel" aria-hidden="true">
-			<div class="modal-dialog" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h5 class="modal-title" id="cartLabel">Cart</h5>
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-							<span aria-hidden="true">&times;</span>
-						</button>
-					</div>
-					<div class="modal-body">
-						<div class="cart-product-list-container"></div>
-						<hr />
-						<div class="container">
+    <div class="modal fade" id="cartModal" tabindex="-1" role="dialog" aria-labelledby="cartLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="cartLabel">Cart</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="cart-product-list-container"></div>
+            <hr>
+            <div class="container">
 							<form>
-								<div class="form-group row">
-									<label for="client-name" class="col-4 col-form-label">Your name:</label>
-									<input class="form-control col-8" type="text" id="client-name" required />
+								<div class="form-row">
+									<div class="col-md-4 mb-3">
+										<label for="validationDefault01">Your name</label>
+										<input type="text" class="form-control" id="validationDefault01" placeholder="Your Name" required>
+									</div>
+									<div class="col-md-4 mb-3">
+										<label for="validationDefault02">Your Phone</label>
+										<input type="text" class="form-control" id="validationDefault02" placeholder="Your Phone" required>
+									</div>
+									<div class="col-md-4 mb-3">
+										<label for="exampleInputEmail1">Your Email</label>
+										<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Email">
+									</div>
 								</div>
-								<div class="form-group row">
-									<label for="client-email" class="col-4 col-form-label">Your email:</label>
-									<input class="form-control col-8" type="email" id="client-email" required />
+								<div class="form-row">
+									<div class="col-md-6 mb-3">
+										<label for="validationDefault03">City</label>
+										<input type="text" class="form-control" id="validationDefault03" placeholder="City" required>
+									</div>
+									<div class="col-md-3 mb-3">
+										<label for="validationDefault04">State</label>
+										<input type="text" class="form-control" id="validationDefault04" placeholder="State" required>
+									</div>
+									<div class="col-md-3 mb-3">
+										<label for="validationDefault05">Zip</label>
+										<input type="text" class="form-control" id="validationDefault05" placeholder="Zip" required>
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="form-check">
+										<input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+										<label class="form-check-label" for="invalidCheck2">
+											Agree to terms and conditions
+										</label>
+									</div>
 								</div>
 							</form>
-						</div>
-					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-						<button class="btn btn-primary order">Order</button>
-					</div>
-				</div>
-			</div>
-		</div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button class="btn btn-primary order">Order</button>
+          </div>
+        </div>
+      </div>
+    </div>
+		
 		<script
   src="https://code.jquery.com/jquery-3.4.1.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
