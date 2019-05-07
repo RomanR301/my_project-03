@@ -559,3 +559,27 @@ body {
 	z-index: 1111;
 }
 
+.cart-product-list-container .col-3 {
+	display: flex;
+	align-items: center;
+}
+
+.cart-product-list-container .col-2 {
+	align-items: center;
+  display: flex;
+}
+
+.cart-btn1 button,
+.cart-btn2 button {
+	border: 1px solid green;
+	width: 25px;
+	height: 25px;
+}
+
+.flex-between {
+	justify-content: space-between
+}
+
+.flex-ai_center {
+	align-items: center;
+}

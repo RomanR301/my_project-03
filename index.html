@@ -27,8 +27,10 @@
 						<a href="#">Account</a>
 						<a href="#">Wishlist</a>
 						<a href="#">Checkout</a>
-						<a href="#">Log In</a>
-						<a href="#">Sign Up</a>
+						<a href="#" data-toggle="modal"
+						data-target="#logInModal">Log In</a>
+						<a href="#" data-toggle="modal"
+						data-target="#signUpModal">Sign Up</a>
 					</nav>
 				</div>
 			</div>
@@ -724,7 +726,111 @@
           </div>
         </div>
       </div>
-    </div>
+		</div>
+
+		<!-- Modal sign up  -->
+		<div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="signUpModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="signUpModalLabel">Create an account</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<form id="account-form"> 
+							<div class="form-group row">
+								<label for="signUpName" class="col-sm-2 col-form-label">Name</label>
+								<div class="col-sm-10">
+										<input type="text" class="form-control" id="signUpName" name="client-name" value="" placeholder="Enter your name">
+								</div>
+							</div>
+							<div class="form-group row">
+								<label for="signUpEmail" class="col-sm-2 col-form-label">Email</label>
+								<div class="col-sm-10">
+									<input type="email" class="form-control" id="signUpEmail" name="client-email" value="" placeholder="Enter your email">
+								</div>
+							</div>
+							<div class="form-group row">
+								<label for="signUpPw" class="col-sm-2 col-form-label">Password</label>
+								<div class="col-sm-10">
+									<input type="password" class="form-control" name="client-password" id="signUpPw" value="" placeholder="Password">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="form-check">
+									<input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+									<label class="form-check-label" for="invalidCheck">
+										Agree to terms and conditions
+									</label>
+									<div class="invalid-feedback">
+										You must agree before submitting.
+									</div>
+								</div>
+							</div>
+							<div class="form-group row">
+								<div class="col-sm-10">
+									<div class="form-check">
+										<input class="form-check-input" type="checkbox" id="gridCheck1">
+										<label class="form-check-label" for="gridCheck1">
+											I am not a robot :)
+										</label>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary" id="signUpBtn" data-form="account-form" onClick="store()">Sign up</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Log In Modal -->
+		<div class="modal fade" id="logInModal" tabindex="-1" role="dialog" aria-labelledby="signUpModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="logInModalLabel">Log In</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<form id="log-in-form">
+								<div class="form-group row">
+									<label for="logInName" class="col-sm-2 col-form-label">Name</label>
+									<div class="col-sm-10">
+											<input type="text" class="form-control" id="logInName" value="" placeholder="Enter your name">
+									</div>
+								</div>
+								<div class="form-group row">
+									<label for="logInPw" class="col-sm-2 col-form-label">Password</label>
+									<div class="col-sm-10">
+										<input type="password" class="form-control" id="logInPw" value="" placeholder="Password">
+									</div>
+								</div>
+								<div class="col-auto">
+									<div class="form-check mb-2">
+										<input class="form-check-input" type="checkbox" id="autoSizingCheck">
+										<label class="form-check-label" for="autoSizingCheck">
+											Remember me
+										</label>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+							<button type="button" class="btn btn-primary" data-form="log-in-form" onClick="check()">Log In</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
 		
 		<script
   src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -736,6 +842,8 @@
 		<script src="js/alert-window.js"></script>
 		<script src="js/cart.js"></script>
 		<script src="js/product-list.js"></script>
+		<script src="js/sign-up.js"></script>
+		<script src="js/log-in.js"></script>
 		<script src="js/index.js"></script>
 	</body>
 </html>

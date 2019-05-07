@@ -328,6 +328,12 @@
 	.cart-btn1,
 	.cart-btn2 {
 		padding-right: 13px;
-    padding-left: 13px;
+		padding-left: 13px;
+		display: flex;
+    align-items: center;
 	}
+
+
 }
+
+

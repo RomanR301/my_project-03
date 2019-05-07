@@ -39,7 +39,7 @@ class Cart {
           const product = productList.getProductById(id);
           total += product.price * this.cart[id];
           cartDomSting += 
-              `<div class="row" data-id="${id}"> 
+              `<div class="row  flex-between flex-ai_center" data-id="${id}"> 
                   <div class="col-4">${product.title}</div>
                   <div class="col-3">${product.price}</div>
                   <div class="col-2">${this.cart[id]}</div>
@@ -50,7 +50,7 @@ class Cart {
       total = total.toFixed(2);
       cartDomSting += `
               <div class="row">
-                  <div class="col-5"><strong>TOTAL</strong></div>
+                  <div class="col-4 total"><strong>TOTAL</strong></div>
                   <div class="col-3"><strong>$${total}</strong></div>
               </div>            
       </div>`;
