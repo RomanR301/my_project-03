@@ -259,6 +259,10 @@ body {
 	background-repeat: no-repeat;
 	background-position: top;
 	min-height: 500px;
+	display: flex !important;
+	justify-content: space-between;
+	align-items: center;
+
 }
 
 .sidebar-container {

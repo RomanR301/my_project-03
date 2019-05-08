@@ -15,30 +15,30 @@ class ProductList {
   renderProducts(container, products) {
     let productListDomString = ''
     products.forEach(product => {
-      productListDomString +=
-       `<div class="product-item">
-          <div class="product-item__img-container">
-            <div class="product-item__image">
-              <img src="img/${product.image}" alt="${product.title}" />
+        productListDomString +=
+        `<div class="product-item">
+            <div class="product-item__img-container">
+              <div class="product-item__image">
+                <img src="img/${product.image}" alt="${product.title}" />
+              </div>
             </div>
-          </div>
-          <div class="product-item__description-container">
-            <div class="product-item__description">
+            <div class="product-item__description-container">
+              <div class="product-item__description">
+                
+              </div>
+              <div class="card-body">
+              <h5 class="card-title">${product.title}</h5>
+                <button class="btn btn-info" data-toggle="modal"
+                  data-target="#productInfoModal" data-id="${product.id}">Info
+                </button>
               
-            </div>
-            <div class="card-body">
-            <h5 class="card-title">${product.title}</h5>
-              <button class="btn btn-info" data-toggle="modal"
-                 data-target="#productInfoModal" data-id="${product.id}">Info
-              </button>
+                <button class="btn btn-primary buy" data-id="${product.id}">
+                  $${product.price} - Buy
+                </button>
+              </div>
             
-              <button class="btn btn-primary buy" data-id="${product.id}">
-                 $${product.price} - Buy
-              </button>
             </div>
-           
-          </div>
-        </div>`
+          </div>`
       
     });
     container.html(productListDomString);
